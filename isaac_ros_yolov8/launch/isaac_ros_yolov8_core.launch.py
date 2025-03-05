@@ -71,6 +71,7 @@ class IsaacROSYolov8LaunchFragment(IsaacROSLaunchFragment):
                 parameters=[{
                     'confidence_threshold': confidence_threshold,
                     'nms_threshold': nms_threshold,
+                    'num_classes': 1,
                 }]
             )
         }
